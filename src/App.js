@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import AddTask from './components/AddTask';
 import ShowTask from './components/ShowTask';
+import _delete from './components/delete';
 
 function App() {
   const [task, setTask] = useState("");
@@ -52,7 +53,7 @@ function App() {
 
   return (
     <div className={"App " + theme}>
-      <div className="container">
+      <div className="container">``
         <Header setTheme={setTheme} theme={theme}>
           Taskmate
         </Header>
